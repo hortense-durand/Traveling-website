@@ -1,0 +1,25 @@
+.banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%), url(../../images/map1.avif);
+	color: #FFFFFF;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner h1 {
+	font-size: 55px;
+}
+
+.banner h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8px;
+	margin-bottom: 40px;
+}
+
+@media (max-width: 540px) {
+	/* For a screen < 540px, this CSS will be read*/
+	h1,h2,h3,a,p,img { (max-width: 540px)
+		margin-left: 40px;
+	}
+}
